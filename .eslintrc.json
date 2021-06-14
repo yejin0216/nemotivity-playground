@@ -3,9 +3,19 @@
     "browser": true,
     "es2020": true
   },
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "extends": [
     "eslint:recommended",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:markdown/recommended"
+  ],
+  "ignorePatterns": [
+    "setupJest.js",
+    "node_modules/*",
+    "dist/*",
+    "test/*"
   ],
   "rules": {
     "indent": [
