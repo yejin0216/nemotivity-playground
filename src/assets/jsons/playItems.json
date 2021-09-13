@@ -1,7 +1,12 @@
 [
   {
-    "name": "Build a Piano with Javascript",
+    "name": "Build a Piano with JavaScript",
     "createdDate": "2021-06-13",
     "href": "../../src/pages/piano/piano.html"
+  },
+  {
+    "name": "Build a Theme Switcher width JavaScript",
+    "createdDate": "2021-09-13",
+    "href": "../../src/pages/themeSwitcher/themeSwitcher.html"
   }
 ]
