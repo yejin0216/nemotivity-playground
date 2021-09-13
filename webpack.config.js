@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
@@ -7,14 +6,15 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    new HtmlWebpackPlugin(),
-    new ESLintPlugin({
-      exclude: ['node_modules'],
-      fix: true,
-    }),
+    new ESLintPlugin(
+      {
+        exclude:["node_modules"],
+        fix: true
+      }
+    )
   ],
   module: {
     rules: [
@@ -22,9 +22,9 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-        },
-      },
-    ],
-  },
+          loader: 'babel-loader'
+        }
+      }
+    ]
+  }
 };
