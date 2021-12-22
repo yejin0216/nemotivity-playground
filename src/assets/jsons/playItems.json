@@ -5,8 +5,8 @@
     "href": "../../src/pages/piano/piano.html"
   },
   {
-    "name": "Build a Theme Switcher width JavaScript",
-    "createdDate": "2021-09-13",
-    "href": "../../src/pages/themeSwitcher/themeSwitcher.html"
+    "name": "Build a Password Generator with JavaScript",
+    "createdDate": "2021-12-21",
+    "href": "../../src/pages/passwordGenerator/passwordGenerator.html"
   }
 ]
