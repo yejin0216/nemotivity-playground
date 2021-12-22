@@ -12,19 +12,14 @@
     "plugin:markdown/recommended"
   ],
   "ignorePatterns": [
+    "webpack.config.js",
     "setupJest.js",
     "node_modules/*",
     "dist/*",
     "test/*"
   ],
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ]
+    "indent": ["error", 2],
+    "quotes": ["error", "single"]
   }
 }
