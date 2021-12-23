@@ -3,7 +3,7 @@
  * @returns {Promise} 플레이그라운드 메뉴 목록
  */
 const getPlayItems = async () => {
-  return await fetch('./src/assets/jsons/playItems.json').then(resp =>
+  return await fetch('./src/static/jsons/playItems.json').then(resp =>
     resp.json(),
   );
 };
